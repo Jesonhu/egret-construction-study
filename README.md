@@ -108,5 +108,5 @@
 
 # 参考资料
 + [TS接口继承类](https://www.tslang.cn/docs/handbook/interfaces.html)
-+ [有道云笔记展示]()
++ [有道云笔记展示](https://note.youdao.com/share/?id=ad95b51fdb98ce430c1c7a6479c8c88d&type=note#/)
 
