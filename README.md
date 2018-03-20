@@ -111,5 +111,5 @@
 + [有道云笔记展示](https://note.youdao.com/share/?id=ad95b51fdb98ce430c1c7a6479c8c88d&type=note#/)
 
 # 手机预览
-![](./assets/img/mobile.png)
+![](https://github.com/Jesonhu/egret-construction-study/blob/master/assets/img/mobile.jpg)
 
