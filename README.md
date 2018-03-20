@@ -79,8 +79,8 @@
       + [eui.BasicLayout](http://developer.egret.com/cn/apidoc/index/name/eui.BasicLayout)
       + [eui.TileLayout]()
       + [eui.LinearLayoutBase]()
-  + [egret.Point]()  
-  + [egret.Matrix]()
+  + [egret.Point](http://developer.egret.com/cn/apidoc/index/name/egret.Point)*
+  + [egret.Matrix]()
   + [egret.Rectangle]()
   + [eui.State]()
   + [egret.MovieClipData]()
