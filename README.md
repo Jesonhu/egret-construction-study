@@ -1,5 +1,3 @@
-> 更新时间 18-03-20
-
 ## 继承类梳理
 
 + [egret.HashObject](http://developer.egret.com/cn/apidoc/index/name/egret.HashObject)
