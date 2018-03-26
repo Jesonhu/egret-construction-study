@@ -25,7 +25,7 @@
     + [RES.ResourceEvent]()
     + [dragonBones.EgretEvent]()
     + [dragonBones.MovieEvent]()
-  + [egret.EventDispatcher](http://developer.egret.com/cn/apidoc/index/name/egret.EventDispatcher)
+  + [egret.EventDispatcher*](http://developer.egret.com/cn/apidoc/index/name/egret.EventDispatcher)
     + [egret.DisplayObject](http://developer.egret.com/cn/apidoc/index/name/egret.DisplayObject)
       + [egret.Bitmap](http://developer.egret.com/cn/apidoc/index/name/egret.Bitmap)
         + [eui.Image](http://developer.egret.com/cn/apidoc/index/name/eui.Image)
