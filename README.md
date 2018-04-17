@@ -65,7 +65,7 @@
     + [egret.URLLoader]()
     + [egret.Ticker]()
     + [egret.WebSocket]()
-    + [egret.Tween]()
+    + [egret.Tween](http://developer.egret.com/cn/apidoc/index/name/egret.Tween)
     + [egret.tween.BasePath]()
     + [egret.tween.TweenItem]()
     + [egret.tween.TweenGroup]()
