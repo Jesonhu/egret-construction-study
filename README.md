@@ -4,7 +4,7 @@
   + [egret.BitmapData](http://developer.egret.com/cn/apidoc/index/name/egret.HashObject#)
   + [egret.Graphics](http://developer.egret.com/cn/apidoc/index/name/egret.HashObject#)
   + [egret.SpriteSheet]()
-  + [egret.Texture]()
+  + [egret.Texture](http://developer.egret.com/cn/apidoc/index/name/egret.Texture)
   + [egret.Event](http://developer.egret.com/cn/apidoc/index/name/egret.Event)
     + [egret.FocusEvent]()
     + [egret.GeolocationEvent]()
