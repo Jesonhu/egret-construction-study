@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameStageSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="162f2805c01" ></w:Config>
+	<e:Image x="0" y="0" source="helloBg_png"/>
+	<ns1:BitmapMovie id="helloMove" width="1322.42" height="771.52" x="-21.21" y="0" anchorOffsetX="0" anchorOffsetY="0"/>
+</e:Skin>

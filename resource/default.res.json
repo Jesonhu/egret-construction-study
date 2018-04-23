@@ -1,0 +1,670 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,helloBg_png,奖励动画90001_png,奖励动画90002_png,奖励动画90003_png,奖励动画90004_png,奖励动画90005_png,奖励动画90006_png,奖励动画90007_png,奖励动画90008_png,奖励动画90009_png,奖励动画90010_png,奖励动画90011_png,奖励动画90012_png,奖励动画90013_png,奖励动画90014_png,奖励动画90015_png,奖励动画90016_png,奖励动画90017_png,奖励动画90018_png,奖励动画90019_png,奖励动画90020_png,奖励动画90021_png,奖励动画90022_png,奖励动画90023_png,奖励动画90024_png,奖励动画90025_png,奖励动画90026_png,奖励动画90027_png,奖励动画90028_png,奖励动画90029_png,奖励动画90030_png,奖励动画90031_png,奖励动画90032_png,奖励动画90033_png,奖励动画90034_png,奖励动画90035_png,奖励动画90036_png,奖励动画90037_png,奖励动画90038_png,奖励动画90039_png,奖励动画90040_png,奖励动画90041_png,奖励动画90042_png,奖励动画90043_png,奖励动画90044_png,奖励动画90045_png,奖励动画90046_png,奖励动画90047_png,奖励动画90048_png,奖励动画90049_png,奖励动画90050_png,奖励动画90051_png,奖励动画90052_png,奖励动画90053_png,奖励动画90054_png,奖励动画90055_png,奖励动画90056_png,奖励动画90057_png,奖励动画90058_png,奖励动画90059_png,奖励动画90060_png,奖励动画90061_png,奖励动画90062_png,奖励动画90063_png,奖励动画90064_png,奖励动画90065_png,奖励动画90066_png,奖励动画90067_png,奖励动画90068_png,奖励动画90069_png,奖励动画90070_png,奖励动画90071_png,奖励动画90072_png,奖励动画90073_png,奖励动画90074_png,奖励动画90075_png,奖励动画90076_png,奖励动画90077_png,奖励动画90078_png,奖励动画90079_png,奖励动画90080_png,奖励动画90081_png,奖励动画90082_png,奖励动画90083_png,奖励动画90084_png,奖励动画90085_png,奖励动画90086_png,奖励动画90087_png,奖励动画90088_png,奖励动画90089_png,奖励动画90090_png,奖励动画90091_png,奖励动画90092_png,奖励动画90093_png,奖励动画90094_png,奖励动画90095_png,奖励动画90096_png,奖励动画90097_png,奖励动画90098_png,奖励动画90099_png,奖励动画90100_png,奖励动画90101_png,奖励动画90102_png,奖励动画90103_png,奖励动画90104_png,奖励动画90105_png,奖励动画90106_png,奖励动画90107_png,奖励动画90108_png,奖励动画90109_png,奖励动画90110_png,奖励动画90111_png,奖励动画90112_png,奖励动画90113_png,奖励动画90114_png,奖励动画90115_png,奖励动画90116_png,奖励动画90117_png,奖励动画90118_png,奖励动画90119_png,奖励动画90120_png,奖励动画90121_png,奖励动画90122_png,奖励动画90123_png,奖励动画90124_png,奖励动画90125_png,奖励动画90126_png,奖励动画90127_png,奖励动画90128_png,奖励动画90129_png,奖励动画90130_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "helloBg_png",
+			"type": "image",
+			"url": "assets/helloBg.png"
+		},
+		{
+			"name": "奖励动画90001_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90001.png"
+		},
+		{
+			"name": "奖励动画90002_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90002.png"
+		},
+		{
+			"name": "奖励动画90003_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90003.png"
+		},
+		{
+			"name": "奖励动画90004_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90004.png"
+		},
+		{
+			"name": "奖励动画90005_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90005.png"
+		},
+		{
+			"name": "奖励动画90006_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90006.png"
+		},
+		{
+			"name": "奖励动画90007_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90007.png"
+		},
+		{
+			"name": "奖励动画90008_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90008.png"
+		},
+		{
+			"name": "奖励动画90009_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90009.png"
+		},
+		{
+			"name": "奖励动画90010_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90010.png"
+		},
+		{
+			"name": "奖励动画90011_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90011.png"
+		},
+		{
+			"name": "奖励动画90012_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90012.png"
+		},
+		{
+			"name": "奖励动画90013_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90013.png"
+		},
+		{
+			"name": "奖励动画90014_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90014.png"
+		},
+		{
+			"name": "奖励动画90015_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90015.png"
+		},
+		{
+			"name": "奖励动画90016_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90016.png"
+		},
+		{
+			"name": "奖励动画90017_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90017.png"
+		},
+		{
+			"name": "奖励动画90018_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90018.png"
+		},
+		{
+			"name": "奖励动画90019_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90019.png"
+		},
+		{
+			"name": "奖励动画90020_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90020.png"
+		},
+		{
+			"name": "奖励动画90021_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90021.png"
+		},
+		{
+			"name": "奖励动画90022_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90022.png"
+		},
+		{
+			"name": "奖励动画90023_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90023.png"
+		},
+		{
+			"name": "奖励动画90024_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90024.png"
+		},
+		{
+			"name": "奖励动画90025_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90025.png"
+		},
+		{
+			"name": "奖励动画90026_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90026.png"
+		},
+		{
+			"name": "奖励动画90027_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90027.png"
+		},
+		{
+			"name": "奖励动画90028_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90028.png"
+		},
+		{
+			"name": "奖励动画90029_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90029.png"
+		},
+		{
+			"name": "奖励动画90030_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90030.png"
+		},
+		{
+			"name": "奖励动画90031_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90031.png"
+		},
+		{
+			"name": "奖励动画90032_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90032.png"
+		},
+		{
+			"name": "奖励动画90033_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90033.png"
+		},
+		{
+			"name": "奖励动画90034_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90034.png"
+		},
+		{
+			"name": "奖励动画90035_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90035.png"
+		},
+		{
+			"name": "奖励动画90036_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90036.png"
+		},
+		{
+			"name": "奖励动画90037_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90037.png"
+		},
+		{
+			"name": "奖励动画90038_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90038.png"
+		},
+		{
+			"name": "奖励动画90039_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90039.png"
+		},
+		{
+			"name": "奖励动画90040_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90040.png"
+		},
+		{
+			"name": "奖励动画90041_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90041.png"
+		},
+		{
+			"name": "奖励动画90042_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90042.png"
+		},
+		{
+			"name": "奖励动画90043_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90043.png"
+		},
+		{
+			"name": "奖励动画90044_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90044.png"
+		},
+		{
+			"name": "奖励动画90045_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90045.png"
+		},
+		{
+			"name": "奖励动画90046_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90046.png"
+		},
+		{
+			"name": "奖励动画90047_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90047.png"
+		},
+		{
+			"name": "奖励动画90048_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90048.png"
+		},
+		{
+			"name": "奖励动画90049_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90049.png"
+		},
+		{
+			"name": "奖励动画90050_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90050.png"
+		},
+		{
+			"name": "奖励动画90051_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90051.png"
+		},
+		{
+			"name": "奖励动画90052_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90052.png"
+		},
+		{
+			"name": "奖励动画90053_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90053.png"
+		},
+		{
+			"name": "奖励动画90054_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90054.png"
+		},
+		{
+			"name": "奖励动画90055_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90055.png"
+		},
+		{
+			"name": "奖励动画90056_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90056.png"
+		},
+		{
+			"name": "奖励动画90057_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90057.png"
+		},
+		{
+			"name": "奖励动画90058_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90058.png"
+		},
+		{
+			"name": "奖励动画90059_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90059.png"
+		},
+		{
+			"name": "奖励动画90060_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90060.png"
+		},
+		{
+			"name": "奖励动画90061_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90061.png"
+		},
+		{
+			"name": "奖励动画90062_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90062.png"
+		},
+		{
+			"name": "奖励动画90063_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90063.png"
+		},
+		{
+			"name": "奖励动画90064_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90064.png"
+		},
+		{
+			"name": "奖励动画90065_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90065.png"
+		},
+		{
+			"name": "奖励动画90066_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90066.png"
+		},
+		{
+			"name": "奖励动画90067_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90067.png"
+		},
+		{
+			"name": "奖励动画90068_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90068.png"
+		},
+		{
+			"name": "奖励动画90069_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90069.png"
+		},
+		{
+			"name": "奖励动画90070_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90070.png"
+		},
+		{
+			"name": "奖励动画90071_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90071.png"
+		},
+		{
+			"name": "奖励动画90072_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90072.png"
+		},
+		{
+			"name": "奖励动画90073_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90073.png"
+		},
+		{
+			"name": "奖励动画90074_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90074.png"
+		},
+		{
+			"name": "奖励动画90075_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90075.png"
+		},
+		{
+			"name": "奖励动画90076_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90076.png"
+		},
+		{
+			"name": "奖励动画90077_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90077.png"
+		},
+		{
+			"name": "奖励动画90078_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90078.png"
+		},
+		{
+			"name": "奖励动画90079_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90079.png"
+		},
+		{
+			"name": "奖励动画90080_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90080.png"
+		},
+		{
+			"name": "奖励动画90081_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90081.png"
+		},
+		{
+			"name": "奖励动画90082_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90082.png"
+		},
+		{
+			"name": "奖励动画90083_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90083.png"
+		},
+		{
+			"name": "奖励动画90084_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90084.png"
+		},
+		{
+			"name": "奖励动画90085_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90085.png"
+		},
+		{
+			"name": "奖励动画90086_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90086.png"
+		},
+		{
+			"name": "奖励动画90087_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90087.png"
+		},
+		{
+			"name": "奖励动画90088_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90088.png"
+		},
+		{
+			"name": "奖励动画90089_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90089.png"
+		},
+		{
+			"name": "奖励动画90090_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90090.png"
+		},
+		{
+			"name": "奖励动画90091_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90091.png"
+		},
+		{
+			"name": "奖励动画90092_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90092.png"
+		},
+		{
+			"name": "奖励动画90093_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90093.png"
+		},
+		{
+			"name": "奖励动画90094_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90094.png"
+		},
+		{
+			"name": "奖励动画90095_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90095.png"
+		},
+		{
+			"name": "奖励动画90096_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90096.png"
+		},
+		{
+			"name": "奖励动画90097_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90097.png"
+		},
+		{
+			"name": "奖励动画90098_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90098.png"
+		},
+		{
+			"name": "奖励动画90099_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90099.png"
+		},
+		{
+			"name": "奖励动画90100_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90100.png"
+		},
+		{
+			"name": "奖励动画90101_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90101.png"
+		},
+		{
+			"name": "奖励动画90102_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90102.png"
+		},
+		{
+			"name": "奖励动画90103_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90103.png"
+		},
+		{
+			"name": "奖励动画90104_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90104.png"
+		},
+		{
+			"name": "奖励动画90105_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90105.png"
+		},
+		{
+			"name": "奖励动画90106_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90106.png"
+		},
+		{
+			"name": "奖励动画90107_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90107.png"
+		},
+		{
+			"name": "奖励动画90108_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90108.png"
+		},
+		{
+			"name": "奖励动画90109_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90109.png"
+		},
+		{
+			"name": "奖励动画90110_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90110.png"
+		},
+		{
+			"name": "奖励动画90111_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90111.png"
+		},
+		{
+			"name": "奖励动画90112_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90112.png"
+		},
+		{
+			"name": "奖励动画90113_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90113.png"
+		},
+		{
+			"name": "奖励动画90114_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90114.png"
+		},
+		{
+			"name": "奖励动画90115_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90115.png"
+		},
+		{
+			"name": "奖励动画90116_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90116.png"
+		},
+		{
+			"name": "奖励动画90117_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90117.png"
+		},
+		{
+			"name": "奖励动画90118_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90118.png"
+		},
+		{
+			"name": "奖励动画90119_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90119.png"
+		},
+		{
+			"name": "奖励动画90120_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90120.png"
+		},
+		{
+			"name": "奖励动画90121_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90121.png"
+		},
+		{
+			"name": "奖励动画90122_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90122.png"
+		},
+		{
+			"name": "奖励动画90123_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90123.png"
+		},
+		{
+			"name": "奖励动画90124_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90124.png"
+		},
+		{
+			"name": "奖励动画90125_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90125.png"
+		},
+		{
+			"name": "奖励动画90126_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90126.png"
+		},
+		{
+			"name": "奖励动画90127_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90127.png"
+		},
+		{
+			"name": "奖励动画90128_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90128.png"
+		},
+		{
+			"name": "奖励动画90129_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90129.png"
+		},
+		{
+			"name": "奖励动画90130_png",
+			"type": "image",
+			"url": "assets/动画9序列/奖励动画90130.png"
+		}
+	]
+}
