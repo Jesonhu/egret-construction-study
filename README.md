@@ -31,7 +31,7 @@
         + [eui.Image](http://developer.egret.com/cn/apidoc/index/name/eui.Image)
       + [egret.BitmapText]()
       + [egret.DisplayObjectContainer](http://developer.egret.com/cn/apidoc/index/name/egret.DisplayObjectContainer)
-        + [egret.Sprite]()
+        + [egret.Sprite](http://developer.egret.com/cn/apidoc/index/name/egret.Sprite)
         + [egret.Stage]()
         + [eui.Component](http://developer.egret.com/cn/apidoc/index/name/eui.Component)
           + [eui.Button]()
