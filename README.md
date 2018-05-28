@@ -37,7 +37,7 @@
           + [eui.Button]()
           + [eui.ItemRenderer]()
           + [eui.Panel]()
-          + [eui.Rect]()
+          + [eui.Rect](http://developer.egret.com/cn/apidoc/index/name/eui.Rect)
           + [eui.Scroller]()
           + [eui.TextInput]()
           + [eui.Range]()
