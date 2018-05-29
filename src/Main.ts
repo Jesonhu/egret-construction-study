@@ -128,23 +128,15 @@ class Main extends eui.UILayer {
      * 创建场景界面
      * Create scene interface
      */
-    private sky: eui.Image
     protected startCreateScene(): void {
-        /*let sky:egret.Bitmap = this.createBitmapByName("bg_jpg");
+        let sky:egret.Bitmap = this.createBitmapByName("bg_jpg");
         this.addChild(sky);
         let stageW:number = this.stage.stageWidth;
         let stageH:number = this.stage.stageHeight;
         sky.width = stageW;
-        sky.height = stageH;*/
+        sky.height = stageH;
 
-        this.sky = new eui.Image('bg_jpg');
-        this.addChild(this.sky);
-        const stageW: number = this.stage.stageWidth; 
-        const stageH: number = this.stage.stageHeight;
-        this.sky.width = stageW;
-        this.sky.height = stageH;
-
-        /*let topMask = new egret.Shape();
+        let topMask = new egret.Shape();
         topMask.graphics.beginFill(0x000000, 0.5);
         topMask.graphics.drawRect(0, 0, stageW, 172);
         topMask.graphics.endFill();
@@ -191,14 +183,35 @@ class Main extends eui.UILayer {
         // Get asynchronously a json configuration file according to name keyword. As for the property of name please refer to the configuration file of resources/resource.json.
         RES.getResAsync("description_json", this.startAnimation, this);
 
-        let button = new eui.Button();
-        button.label = "Click!";
-        button.horizontalCenter = 0;
-        button.verticalCenter = 0;
-        this.addChild(button);
-        button.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onButtonClick, this);*/
+        this.button = new eui.Button();
+        this.button.label = "Click!";
+        // 水平居中
+        // button.horizontalCenter = 0;
+        // 垂直居中
+        // button.verticalCenter = 0;
+        this.addChild(this.button);
+        this.button.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onButtonClick, this);
 
-        this.createMask();
+        // 监听舞台刷帧事件.
+        // 舞台会一直进行刷帧，此刷帧事件是广播事件，任何对象(包括不在显示)列表中的对象也可以监听到
+        this.button.addEventListener(egret.Event.ENTER_FRAME, this.onButtonEnterFrameListener, this);
+    }
+
+    private currentNumber: number = 0;
+    private button: eui.Button
+    private onButtonEnterFrameListener() {
+        this.currentNumber++;
+            // console.log('刷帧中...', button);
+
+        // 限制频率处理
+        if (this.currentNumber % 20 === 0) {
+            this.button.x = parseInt( String(Math.random() * (640 - this.button.width)) );
+            this.button.y = parseInt( String(Math.random() * (1136 - this.button.height)) );
+
+            if (this.currentNumber >= 200) {
+                this.button.removeEventListener(egret.Event.ENTER_FRAME, this.onButtonEnterFrameListener, this);
+            }
+        }
     }
     /**
      * 根据name关键字创建一个Bitmap对象。name属性请参考resources/resource.json配置文件的内容。
@@ -260,91 +273,5 @@ class Main extends eui.UILayer {
         panel.horizontalCenter = 0;
         panel.verticalCenter = 0;
         this.addChild(panel);
-    }
-
-    /**
-     * 创建遮罩对象
-     * 
-     * @link
-     * [egret 动画]()
-     */
-    private line: eui.Image
-    private createMask() {
-        /*this.line = new eui.Image('line_png');
-        const mask = new eui.Rect();
-
-        this.line.width = 640;
-        mask.height = 5;
-        mask.width = 0;
-
-        this.line.mask = mask;
-
-        this.addChild(mask);
-        this.addChild(this.line);
-        // this.addChild(this.mask);
-        
-        // mask也需要添加进来
-        // 以为将此对象指定为某个[mask]就可以不用添加到场景中，实际需要
-        
-
-        egret.Tween.get(mask, {loop: false}).to({width: 300}, 5000);*/
-
-        const mask = new eui.Rect();
-        mask.width = 100;
-        mask.height = 100;
-        mask.x = 0;
-        mask.y = 0;
-        this.addChild(mask);
-
-        this.sky.mask = mask;
-
-        // 设置`遮罩层`随机显示位置
-        let randomPointX: number = 0;
-        let randomPointY: number = 0;
-
-        /**
-         * 创建一个定时器.
-         * 
-         * @link [官方API](http://edn.egret.com/cn/article/index/id/154) 
-         */
-        const timer: egret.Timer = new egret.Timer(300, 20);
-        timer.addEventListener(egret.TimerEvent.TIMER, this.onTimerWork, this);
-        timer.addEventListener(egret.TimerEvent.TIMER_COMPLETE, this.onTimerComplete, this);
-        timer.start();
-    }
-
-    /**
-     * 计时器计时中回调. 
-     */
-    private onTimerWork() {
-        const randomPointX: number = this.getRandomNumberByLimit(640 - 100);
-        const randomPointY: number = this.getRandomNumberByLimit(1136 - 100);
-
-        this.sky.mask.x = randomPointX;
-        this.sky.mask.y = randomPointY;
-    }
-
-    /**
-     * 计时器结束计时回调 
-     */
-    private onTimerComplete() {
-        // console.log('计时器停止了');
-        // `遮罩层`删除
-        this.sky.mask = null;
-    }
-
-    /**
-     * 获取指定数值的随机数.
-     * 
-     * @param {number} limit 限制数值
-     * @example
-     * ```
-     * getRandomNumberByLimit(6)
-     * => 0 ~ 6 之间的随机整数
-     * ```
-     */
-    private getRandomNumberByLimit(limit: number): number {
-        const random = Math.random();
-        return parseInt( String(random * limit) );
     }
 }
