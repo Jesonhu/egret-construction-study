@@ -103,8 +103,7 @@
     + [RES.全局函数](http://developer.egret.com/cn/apidoc/index/name/RES.globalFunction)
     
 # Demo
-+ 遮罩
-  + [基本效果](http://weixin.easysolves.com/sites/egret_demo/mask/basic/)
++ [遮罩使用](https://github.com/Jesonhu/egret-maks-demo)
 
 # 参考资料
 + [TS接口继承类](https://www.tslang.cn/docs/handbook/interfaces.html)
