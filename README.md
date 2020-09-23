@@ -112,3 +112,5 @@
 # 手机预览
 ![](https://github.com/Jesonhu/egret-construction-study/blob/master/assets/img/mobile.jpg)
 
+修改测试.
+
